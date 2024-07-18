@@ -43,7 +43,7 @@ section {
 
     box-shadow: 0px 1px 10px 0px #0000001A;
     padding-bottom: 15px;
-
+    cursor: pointer;
 
 
 }
@@ -98,7 +98,7 @@ section {
 
 }
 
-.image:hover .social-icons {
+.card:hover .social-icons {
     right: 0;
 
 }
