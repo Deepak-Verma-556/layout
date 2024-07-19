@@ -102,7 +102,7 @@ section {
     right: 0;
 
 }
-.mb-10{
+.mb-20{
  margin-bottom: 20px;
 }
 
@@ -115,25 +115,25 @@ section {
     fill: white;
 }
 
-
 @media(min-width:576px) {
     .col-sm-6 {
-
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
-
     }
-
 }
-@media(min-width:768px) {
-    .col-md-3 {
-
+@media (min-width:768px) {
+    .col-md-4{
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    
+}
+@media(min-width:992px) {
+    .col-lg-3 {
         width: 25%;
         padding-left: 12px;
         padding-right: 12px;
-
-
-    }
-
+    }        
 }
